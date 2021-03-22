@@ -1,0 +1,23 @@
+#gameCanvas {
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+}
+/* code.gondr.net -> 85 */    
+#gameContainer {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding:8px 12px;
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(54, 83, 245);
+    color:#fff;
+    margin-top:10px;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background-color: rgb(2, 26, 160);
+}
